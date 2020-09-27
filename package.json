@@ -1,0 +1,28 @@
+{
+  "name": "slack-read-only-channels",
+  "version": "1.0.0",
+  "description": "slack-read-only-channels",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -rf dist && tsc && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagsMagnoli/slack-read-only-channels.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MagsMagnoli/slack-read-only-channels/issues"
+  },
+  "homepage": "https://github.com/MagsMagnoli/slack-read-only-channels#readme",
+  "dependencies": {
+    "@slack/bolt": "^2.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2",
+    "typescript": "^4.0.3"
+  }
+}
