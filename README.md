@@ -1,1 +1,1 @@
-slack-read-only-channels
+Slack bot for the peoplesparty workspace
